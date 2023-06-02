@@ -1,0 +1,69 @@
+h1 {
+  color: #e8c2ca;
+}
+h2 {
+  color: #e8c2ca;
+}
+body {
+  text-align: center;
+  background-image:url("img/fondlune.png");
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: antiquewhite;
+}
+th {
+  color: #e8c2ca;
+}
+
+.hover-container img:hover {
+  rotate: 90deg;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+        background-image: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  body {
+    background-color: red;
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: yellow;
+    background-image: none;
+  }
+}
+
+/* @media  only screen and (max-width:1000px){
+    h1 {
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+     h2 {
+        color: red;
+     }
+} */
